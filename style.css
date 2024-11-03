@@ -27,7 +27,10 @@ body {
 
 a{
     text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
 }
+
+
 
 /* darkmode toggle button */
 /* From Uiverse.io by cuzpq */ 
@@ -829,6 +832,10 @@ textarea {
     }
 
     .github-area p {
+        font-size: 1.5em;
+    }
+
+    .github-area p:hover {
         font-size: 1.5em;
     }
 
