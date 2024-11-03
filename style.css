@@ -146,10 +146,16 @@ li {
     margin-bottom: 3rem;
 }
 
+#mobile-image {
+    display: none;
+}
+
 .img-container {
     width: 35%;
-    background-color: #58BC56;
-    height: 500px;
+}
+
+.img-container img {
+    border-radius: 1rem;
 }
 
 #right-side {
@@ -638,7 +644,7 @@ textarea {
     #about-section {
         flex-direction: column;
         padding: 3rem 1rem;
-        align-items: center;
+        align-items: center
     }
 
     #right-side {
@@ -657,6 +663,10 @@ textarea {
         display: none;
     }
 
+    #mobile-image {
+        display: inline-block;
+    }
+
     .img-container {
         width: 100%;
         height: 25rem;
@@ -669,5 +679,9 @@ textarea {
 
     #skills-section h2 {
         font-size: 2em;
+    }
+
+    #github-container {
+        margin-top: 2rem;
     }
 }
