@@ -14,23 +14,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
     <script src="script.js" defer></script>
 </head>
 <body>
     <section id="homepage">
         <nav>
             <ul>
-                <li id="about-me">sobre mim</li>
-                <li id="skills">habilidades</li>
-                <li id="projects">projetos</li>
-                <li id="contact" class="white-text">contato</li>
+                <li id="about-me"><a href="#about-section">sobre mim</a></li>
+                <li id="skills"><a href="#skills-section">habilidades</a></li>
+                <li id="projects"><a href="#projects-section">projetos</a></li>
+                <li id="contact"><a href="#contact-section" id="white-li">contato</a></li>
             </ul>              
+            <!-- From Uiverse.io by cuzpq --> 
+            <input type="checkbox" class="theme-checkbox">
         </nav>
-
             <div id="main-text">
-                <h1 id="first-h1">Miguel</h1>
-                <h1 id="second-h1">Calixto</h1>
-                <p id="main-text-p">Desenvolvedor de software</p>
+                <h1 id="first-h1"></h1>
+                <h1 id="second-h1"></h1>
+                <p id="main-text-p"></p>
             </div>
 
         <img src="img/Vector (2).png" id="left-top-gradient">
@@ -224,7 +226,7 @@
 
     <section id="contact-section">
         <h2>Contato</h2>
-        <div id="input-container">
+        <form id="input-container">
             <input type="text" placeholder="Nome">
             <input type="email" placeholder="Email">
             <textarea name="message" placeholder="Sua mensagem"></textarea>
