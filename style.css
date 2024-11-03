@@ -570,6 +570,10 @@ textarea {
     border-bottom: 2px solid #90C18F;
 }
 
+#go-top a {
+    color: #90C18F;
+}
+
 #bottom-section p {
     font-size: 22px;
     margin-top: 4rem;
@@ -596,10 +600,6 @@ textarea {
 
     #skills-container {
         max-width: 85%;
-    }
-
-    .skill p {
-        font-size: 25px;
     }
 
     .skill i {
@@ -650,6 +650,10 @@ textarea {
     }
     
     .skill p {
+        font-size: 20px;
+    }
+
+    .skill p:hover {
         font-size: 20px;
     }
 
